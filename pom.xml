@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>hdi.example.model</groupId>
     <artifactId>examplebusinessmodel</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <version>0.0.1</version>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
