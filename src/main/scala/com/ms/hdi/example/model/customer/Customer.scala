@@ -10,6 +10,7 @@ import com.ms.hdi.example.model.BaseDataGen
  * @param firstName
  * @param lastName
  * @param userName
+ * @param state
  */
 case class Customer(customerId: Int, customerName: String, firstName: String,
-                    lastName: String, userName: String, email: String) extends BaseDataGen
+                    lastName: String, userName: String, email: String, state: String) extends BaseDataGen
