@@ -7,7 +7,6 @@ import com.ms.hdi.example.model.BaseDataGen
  * @param customerId customer id
  * @param date sale date/tx date
  * @param saleQty sale qty
- * @param itemId sale Item Id
- * @param saleValue sale value
+ * @param item Sale Item
  */
-case class Sale(customerId:Int, date:String, saleQty: Int, itemId: Int, saleValue: Float) extends BaseDataGen
+case class Sale(customerId:Int, date:String, saleQty: Int, item:Item) extends BaseDataGen
